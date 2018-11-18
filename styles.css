@@ -1,0 +1,39 @@
+.sliding{
+    padding-top: 30px;
+}
+img{
+    width: 100%;
+    margin: 0;
+}
+.slider{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+.left-arrow,
+.right-arrow{
+    position: absolute;
+    top: calc(50% - 20px);
+    display: block;
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.7);
+    cursor: pointer;
+}
+.left-arrow{
+    left: 2%;
+}
+.right-arrow{
+    right: 2%
+   
+}
+.left-arrow:hover,
+.right-arrow:hover{
+    background-color:rgba(255,255,255,0.3);
+}
